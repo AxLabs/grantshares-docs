@@ -24,6 +24,7 @@ Below is a comprehensive list of all RFPs, both active and completed. New RFPs a
 |--------|--------------------------|--------------|----------------|--------|
 | [GS-001](rfp-docs/gs-001) | Call for New DAO Members | 10 Mar 2025  | ~~23 Mar 2025~~ <br/> 28 Mar 2025    | 🔴     |
 | [GS-002](rfp-docs/gs-002) | Centre Point #1 Travel Grants | 24 Mar 2025  | 2 Apr 2025    | 🔴     |
+| [GS-003](rfp-docs/gs-003) | Centre Point #2 Travel Grants | 08 Aug 2025  | 24 Aug 2025    | 🟢     |
 
 Status Legend:
 - 🟢 Open for Submissions
