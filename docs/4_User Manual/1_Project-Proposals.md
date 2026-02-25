@@ -21,7 +21,7 @@ software to connect with the web app. The supported wallets are NeoLine, Neon, o
 will need some GAS to put your proposal on-chain and execute it after voting. The transaction fees for those actions
 will be less than one tenth of one GAS. Furthermore, the first proposal creation step doesn't require any GAS.
 
-## Phase 1: Porposal Creation
+## Phase 1: Proposal Creation
 
 Go the GrantShares [web app](https://grantshares.io/app/proposals) and click on *"Create a Proposal"*. If you haven't
 authenticated yourself with your GitHub account yet, click on *"Connect to GitHub"* in the upper right corner. This will
