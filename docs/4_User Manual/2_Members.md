@@ -2,7 +2,6 @@
 
 These are brief descriptions of each member. More information can be found on their websites and on the [GrantShares Members page](https://grantshares.io/app/members).
 
-
 ## AxLabs
 AxLabs is a Swiss-based company specializing in building tools, infrastructure, and applications for Web3, especially for the Neo ecosystem. They are known for developing neow3j Java/Kotlin SDK, GrantShares DAO, Neo N3 Privatenet Docker, Neo X (core + bridge), and leading the ecosystem as a Neo Council Member. AxLabs also provides consulting and technical support for Web3/Blockchain projects. [Source: AxLabs](https://axlabs.com/)
 
