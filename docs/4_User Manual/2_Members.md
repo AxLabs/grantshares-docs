@@ -1,7 +1,7 @@
 # Members
 
 ## AxLabs
-AxLabs is a blockchain development company specializing in building tools, infrastructure, and applications for the Neo ecosystem. They are known for developing the Neo3 Preview TestNet, the neow3j Java SDK, and contributing to core protocol development. AxLabs also provides consulting and technical support for Neo projects. [Source: AxLabs](https://axlabs.com/)
+AxLabs is a Swiss-based company specializing in building tools, infrastructure, and applications for Web3, especially for the Neo ecosystem. They are known for developing neow3j Java/Kotlin SDK, GrantShares DAO, Neo N3 Privatenet Docker, Neo X (core + bridge), and leading the ecosystem as a Neo Council Member. AxLabs also provides consulting and technical support for Web3/Blockchain projects. [Source: AxLabs](https://axlabs.com/)
 
 ## Neo Global Development (NGD)
 Neo Global Development (NGD) is the primary development and operations arm of the Neo blockchain. NGD is responsible for core protocol development, ecosystem growth, community engagement, and global marketing. They play a central role in driving Neo's strategic direction and supporting developer initiatives. [Source: Neo.org](https://neo.org/)
