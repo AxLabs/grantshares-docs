@@ -45,6 +45,18 @@ The `removeWhitelistedToken` method on `GrantShraresTreasury` allows removing a 
 
 The `setFundersMultiSigThresholdRatio` method on `GrantSharesTreasury` allows setting the ratio used when calculating the funders multi-sig threshold. E.g., if it is set to 50, the threshold will be half of the number of funders.
 
+**Bridge Assets to NeoX**
+
+The `bridge` method on `GrantSharesBridgeAdapter` enables transferring tokens from Neo N3 to NeoX via the Neo X Bridge. This method can only be invoked by the `GrantSharesGov` contract as part of a proposal execution. It supports bridging GAS and NEO tokens to specified NeoX addresses.
+
+Parameters:
+- `token`: The Hash160 of the token to bridge (GAS or NEO)
+- `to`: The recipient address on NeoX
+- `amount`: The amount of tokens to bridge
+
+The method automatically handles bridge fees and validates that no excess tokens remain in the adapter after the transfer (except for an allowed `maxFee` amount in GAS).
+
+
 ## Methods to be invoked by the member or funder multi-sig address
 
 Because of security considerations we decided to have several methods that can be called by GrantShares members and funders directly and don’t require a proposal. Of course these methods cannot be executed by single addresses. The authorisation is only given to the multi-sig address made up of all member public keys for `GrantSharesGov` and all funder public keys for `GrantSharesTreasury`. The signing threshold of these multi-sig addresses is determined by parameters set in the contracts’ storages. The methods that can be invoked by the multi-sig addresses are the following.

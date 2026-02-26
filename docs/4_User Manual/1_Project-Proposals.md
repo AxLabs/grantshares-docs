@@ -5,6 +5,8 @@
 
 The most important functionality of GrantShrares is explained here: **How to create a successful project proposal?**
 
+For projects that require deployment on NeoX, see more details in the dedicated [Cross-Chain Proposals](4_Cross-Chain-Proposals.md) guide. Cross-chain proposals enable transferring assets from Neo N3 to NeoX via the Neo X Bridge as part of the proposal execution.
+
 ## Prerequisites
 
 ### GitHub Authentication
