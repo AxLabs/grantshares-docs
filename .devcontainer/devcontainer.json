@@ -1,11 +1,6 @@
 {
   "name": "Docusaurus Dev Container",
-  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "18"
-    }
-  },
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,12 +9,15 @@
       ]
     }
   },
-  "postCreateCommand": "npm install",
+  "postCreateCommand": [
+    "yarn install",
+    "yarn start"
+  ],
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
       "label": "Docusaurus",
-      "onAutoForward": "notify"
+      "onAutoForward": "openBrowser"
     }
   },
   "remoteUser": "node"

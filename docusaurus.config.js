@@ -44,13 +44,19 @@ const config = {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
             const newItems = sidebarItems.filter((item) => {
               const newSubItems = item.items.filter((item) => {
-                // remove an item with a specific label 'rfp-docs' if the item is not null and the item has a label
+                // Keep the filter to remove items with the label 'rfp-docs'
                 return item.label !== 'rfp-docs';
               });
               item.items = newSubItems;
+
+              // Set the group to not collapse by default
+              if (item.type === 'category' && item.label === 'RFP') {
+                item.collapsed = false;
+              }
+
               return item;
             });
-            return newItems
+            return newItems;
           }
         },
         blog: {
